@@ -5,7 +5,7 @@ using Tyuiu.GalyameevMR.Sprint4.Task0.V29.Lib;
 namespace Tyuiu.GalyameevMR.Sprint4.Task0.V29.Test
 { 
     [TestClass]
-    public class DataServiceTest
+    public class DataServiceTest 
     {
         [TestMethod]
         public void CheckSumInArrayValid()

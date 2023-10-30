@@ -11,7 +11,7 @@ namespace Tyuiu.GalyameevMR.Sprint4.Task0.V29
     {
         static void Main(string[] args) 
         {
-            DataService DataService = new DataService();
+            DataService DataService = new DataService(); 
             Console.Title = "Спринт 4. Выполнил: Галямеев М.Р. | ПКТб-23-1";
             Console.WriteLine("****************************************************************");
             Console.WriteLine("* Спринт #4                                                     ");

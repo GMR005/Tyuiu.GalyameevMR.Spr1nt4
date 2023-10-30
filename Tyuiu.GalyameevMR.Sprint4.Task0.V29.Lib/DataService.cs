@@ -9,7 +9,7 @@ namespace Tyuiu.GalyameevMR.Sprint4.Task0.V29.Lib
 {
     public class DataService : ISprint4Task0V29
     {
-        public int GetSumOddArrEl(int[] array)
+        public int GetSumOddArrEl(int[] array) 
         {
             array = new int[] { 7, 4, 3, 2, 1, 5, 9, 8, 7, 4 };
             int sum = 0;
