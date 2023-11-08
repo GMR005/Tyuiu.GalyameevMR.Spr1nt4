@@ -49,7 +49,6 @@ namespace Tyuiu.GalyameevMR.Sprint4.Task4.V8
             Console.WriteLine("****************************************************************");
             Console.WriteLine("*РЕЗУЛЬТАТ:                                                     ");
             Console.WriteLine("****************************************************************");
-            Console.WriteLine();
             int[,] result = DataService.Calculate(mtrx);
             for (int i = 0; i < result.GetLength(0); i++)
             {
@@ -59,9 +58,6 @@ namespace Tyuiu.GalyameevMR.Sprint4.Task4.V8
                 }
                 Console.WriteLine();
             }
-
-
-
         }
     }
 }
