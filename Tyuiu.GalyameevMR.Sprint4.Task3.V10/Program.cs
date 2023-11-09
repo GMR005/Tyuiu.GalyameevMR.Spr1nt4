@@ -58,9 +58,8 @@ namespace Tyuiu.GalyameevMR.Sprint4.Task2.V20
             Console.WriteLine("*РЕЗУЛЬТАТ:                                                     ");
             Console.WriteLine("****************************************************************");
             Console.WriteLine();
-            int[] ourArray = { 8, 5, 7, 4, 7 };
-            string p = DataService.Calculate(ourArray);
-            Console.WriteLine(p);
+            int maxValue = DataService.Calculate(mtrx);
+            Console.WriteLine(maxValue);
             Console.ReadKey();
         }
     }

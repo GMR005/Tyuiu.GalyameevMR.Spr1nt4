@@ -11,10 +11,14 @@ namespace Tyuiu.GalyameevMR.Sprint4.Task3.V10.Test
         public void FindMaxCountInArray()
         {
             DataService DataService = new DataService();
-            int[] array = { 8, 5, 7, 4, 7 };
-            string x = $"Наибольшее число в строке матрицы = 8";
-            string p = DataService.Calculate(array);
-            Assert.AreEqual(p, x);
+            int [,] array = new int[,] {   {5, 7, 6, 6, 5},
+                               { 5, 5, 5, 4, 6},
+                               { 8, 5, 7, 4, 7},
+                               { 7, 6, 7, 4, 7},
+                               { 5, 8, 7, 8, 8}    };
+            int maxValue = 8;
+            int result = DataService.Calculate(array);
+            Assert.AreEqual(result, maxValue);
         }
     }
 }
