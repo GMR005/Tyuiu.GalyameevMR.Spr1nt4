@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GalyameevMR.Sprint4.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GalyameevMR.Sprint4.Task7.V25.Lib", "Tyuiu.GalyameevMR.Sprint4.Task7.V25.Lib\Tyuiu.GalyameevMR.Sprint4.Task7.V25.Lib.csproj", "{FBB7295A-C4A0-4E2D-8A26-FDFBF2A9169C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{D1F30F67-A18A-474D-91D4-7B5E8313507C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
